@@ -1,0 +1,6 @@
+A=input("Enter value of A:")
+B=input("Enter value of B:")
+print("Addition of A and B is")
+print("Multiplication of A and B is")
+print("Division of A and B is")
+print("Modulus of A and B is")
