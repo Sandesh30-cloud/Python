@@ -46,3 +46,14 @@ ranking = np.argsort(scores)[::-1]
 print("\n🎯 ATTENTION-BASED RECOMMENDATIONS:\n")
 for i in ranking:
     print(movies[i])
+
+
+            
+            | Transformer Term | What I Did        |
+            | ---------------- | ----------------- |
+            | Query (Q)        | User mood         |
+            | Key (K)          | Movie description |
+            | Value (V)        | Movie info        |
+            | Q·Kᵀ             | Relevance         |
+            | Softmax          | Focus             |
+            | Weighted sum     | Context output    |
